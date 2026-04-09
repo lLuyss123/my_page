@@ -35,7 +35,7 @@ nav {
     position: absolute;
     top: 6%;
     left: 50%;
-    
+
     transform: translate(-50%, -50%);
     justify-content: center;
 
@@ -50,7 +50,7 @@ header nav a {
     font-size: 20px;
 }
 
-header nav a:hover{
+header nav a:hover {
     border-bottom: 3px solid #333;
     transition: border-color 0.9s ease;
 
@@ -68,7 +68,8 @@ header nav ol {
     align-items: center;
     justify-content: center;
 }
-.image{
+
+.image {
     width: 30px;
     height: 30px;
     image-rendering: pixelated;
@@ -77,30 +78,85 @@ header nav ol {
     background-image: url("descarga.svg");
     opacity: 1;
 }
+
 .image:hover {
     cursor: pointer;
     opacity: 0.5;
 }
 
 .blob {
-  width: 155%;
-  aspect-ratio: 1;
-  background: linear-gradient(135deg, #f8ce5c 0%, #a76004 100%);
-  clip-path: shape(from 87.45% 45.02%,curve to 92.48% 56.45% with 90.99% 50.00%,curve to 92.05% 69.35% with 93.97% 62.91%,curve to 82.42% 77.15% with 90.14% 75.80%,curve to 71.01% 83.22% with 74.69% 78.49%,curve to 61.91% 91.53% with 67.33% 87.95%,curve to 49.74% 96.95% with 56.49% 95.12%,curve to 38.70% 91.46% with 42.99% 98.79%,curve to 25.99% 85.79% with 34.41% 84.13%,curve to 15.38% 80.54% with 17.56% 87.44%,curve to 14.30% 66.90% with 13.20% 73.65%,curve to 13.33% 55.08% with 15.41% 60.16%,curve to 11.20% 44.30% with 11.25% 50.00%,curve to 11.95% 32.32% with 11.14% 38.59%,curve to 16.84% 21.25% with 12.75% 26.06%,curve to 27.31% 15.38% with 20.92% 16.44%,curve to 38.83% 11.12% with 33.70% 14.32%,curve to 50.39% 5.23% with 43.95% 7.93%,curve to 62.85% 5.60% with 56.83% 2.53%,curve to 72.70% 14.03% with 68.88% 8.67%,curve to 79.11% 24.51% with 76.53% 19.39%,curve to 82.80% 34.84% with 81.69% 29.63%,curve to 87.45% 45.02% with 83.91% 40.04%);
-  margin: 1.5rem auto;
+    width: 155%;
+    aspect-ratio: 1;
+    background: linear-gradient(135deg, #f8ce5c 0%, #a76004 100%);
+    clip-path: shape(from 87.45% 45.02%, curve to 92.48% 56.45% with 90.99% 50.00%, curve to 92.05% 69.35% with 93.97% 62.91%, curve to 82.42% 77.15% with 90.14% 75.80%, curve to 71.01% 83.22% with 74.69% 78.49%, curve to 61.91% 91.53% with 67.33% 87.95%, curve to 49.74% 96.95% with 56.49% 95.12%, curve to 38.70% 91.46% with 42.99% 98.79%, curve to 25.99% 85.79% with 34.41% 84.13%, curve to 15.38% 80.54% with 17.56% 87.44%, curve to 14.30% 66.90% with 13.20% 73.65%, curve to 13.33% 55.08% with 15.41% 60.16%, curve to 11.20% 44.30% with 11.25% 50.00%, curve to 11.95% 32.32% with 11.14% 38.59%, curve to 16.84% 21.25% with 12.75% 26.06%, curve to 27.31% 15.38% with 20.92% 16.44%, curve to 38.83% 11.12% with 33.70% 14.32%, curve to 50.39% 5.23% with 43.95% 7.93%, curve to 62.85% 5.60% with 56.83% 2.53%, curve to 72.70% 14.03% with 68.88% 8.67%, curve to 79.11% 24.51% with 76.53% 19.39%, curve to 82.80% 34.84% with 81.69% 29.63%, curve to 87.45% 45.02% with 83.91% 40.04%);
+    margin: 1.5rem auto;
 }
-figure  img{
+
+.me img {
     width: 44%;
 }
-figure{
+
+.me {
     position: absolute;
-    top:40px;
-    transform: translate(13%);
+    transform: translate(11.5%, -4%);
 }
-.about{
+
+.about {
     display: flex;
     align-items: center;
     position: relative;
     font-size: 20px;
     background-color: beige;
+}
+
+.pyect1,
+.pyect2,
+.pyect3 {
+    background-color: rgba(121, 121, 121, 0.315);
+    text-align: center;
+    border-radius: 20px;
+}
+
+.contenedor_proyec p {
+    color: white;
+}
+
+.pyect1 img,
+.pyect2 img,
+.pyect3 img {
+    width: 64%;
+    image-rendering: auto;
+    border-radius: 15px;
+}
+
+.pyect1 :hover,
+.pyect2 :hover,
+.pyect3 :hover {
+    width: 65%;
+    cursor: pointer;
+    transition: width 0.3s ease-in-out;
+}
+
+.contenedor_proyec {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 600px;
+    background: #1c4f0e;
+    background: linear-gradient(90deg, rgba(28, 79, 14, 1) 0%, rgba(41, 41, 41, 1) 50%, rgba(81, 247, 72, 1) 100%);
+}
+
+
+
+
+
+
+
+footer {
+    background-color: #333;
+    height: 50px;
+}
+
+html {
+    scroll-behavior: smooth;
 }
